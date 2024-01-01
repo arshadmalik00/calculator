@@ -4,7 +4,7 @@ import { evaluate } from "mathjs";
 
 const keys = ["C", "X", "%", "/", "7", "8", "9", "*", "4", "5", "6", "-", "1", "2", "3", "+", "0", ".", "="];
 
-export function Calculator() {
+export default function Calculator() {
   const [value, setValue] = useState("");
   console.log("this.value", value);
 
